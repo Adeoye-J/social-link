@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background-color: hsl(0, 0%, 8%);
+      font-family: "Inter", sans-serif;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-container {
+      background-color: hsl(0, 0%, 12%);
+      max-width: 350px;
+      text-align: center;
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    .image-container img {
+      border-radius: 50%;
+      width: 100px;
+    }
+
+    .profile-details h1 {
+      color: white;
+      font-size: 23px;
+      margin-top: 20px;
+    }
+
+    .profile-details .location {
+      color: hsl(75, 94%, 57%);
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: 8px;
+    }
+
+    .profile-details .description {
+      color: white;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .social-links button {
+      border-radius: 5px;
+      border: none;
+      padding-block: 10px;
+      background-color: hsl(0, 0%, 20%);
+      color: white;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <div class="image-container">
+      <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Image ">
+    </div>
+
+    <div class="profile-details">
+      <h1>Jessica Randall</h1>
+      <p class="location">London, United Kingdom</p>
+      <p class="description">"Front-end developer and avid reader."</p>
+    </div>
+
+    <div class="social-links">
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
